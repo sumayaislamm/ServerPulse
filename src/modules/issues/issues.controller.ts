@@ -142,7 +142,7 @@ const deleteIssue = async (req: Request, res: Response) => {
 
     try {
 
-        await issueService.deleteIssueFromDB(id as string);
+        await issueService.deleteIssueFromDB(id as string, (req as any).user);
 
         sendResponse(res, {
             statusCode: 200,
