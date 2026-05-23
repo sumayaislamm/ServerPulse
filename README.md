@@ -6,7 +6,7 @@ A collaborative issue tracking system API built with Node.js, Express, TypeScrip
 
 # 🚀 Live URL
 
-https://devpulse-api.vercel.app
+https://server-pulse.vercel.app/
 
 ---
 
